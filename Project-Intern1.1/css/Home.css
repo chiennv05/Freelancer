@@ -870,6 +870,299 @@ body {
   }
 }
 
+/* sign up */
+.main-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("https://cdn.bettamax.com/public/admin/images/bg-illustration.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-signup-container .logo {
+  width: 184px;
+  height: 56px;
+  margin-bottom: 30px;
+}
+
+.signup-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 544px;
+}
+
+.signup-container h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container label {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-container input {
+  width: 483px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Khi người dùng nhấn vào input, đổi viền thành xanh */
+.signup-container input:focus {
+  border-color: #4a00e0;
+}
+
+.signup-container form .password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.signup-container form .password-container input {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.signup-container form .password-container .toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none; /* Ngăn chọn văn bản khi bấm */
+}
+
+.signup-container form button {
+  background: var(--gradient-color-feature);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 472px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.signup-container p {
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.signup-container p a {
+  color: var(--text-color1);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.signup-container .divider {
+  margin: 15px 0;
+  font-size: 14px;
+  color: var(--subtext-color);
+}
+
+.signup-container .google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--text-color2);
+  border: 2px solid #ccc;
+  color: var(--text-color1);
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-container .google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.signup-container .item-signup {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.signup-container .item-signup a {
+  color: var(--text-color1);
+  text-decoration: none;
+
+  margin: 10px;
+}
+
+/* sign in */
+
+.main-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("https://cdn.bettamax.com/public/admin/images/bg-illustration.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-signin-container .logo {
+  width: 184px;
+  height: 56px;
+  margin-bottom: 30px;
+}
+
+.signin-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 544px;
+}
+
+.signin-container h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+.signin-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-container label {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signin-container input {
+  width: 483px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Khi người dùng nhấn vào input, đổi viền thành xanh */
+.signin-container input:focus {
+  border-color: #4a00e0;
+}
+
+.signin-container form .password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.signin-container form .password-container input {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.signin-container form .password-container .toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none; /* Ngăn chọn văn bản khi bấm */
+}
+
+.signin-container form button {
+  background: var(--gradient-color-feature);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 472px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.signin-container p {
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.signin-container p a {
+  color: var(--text-color1);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.signin-container .divider {
+  margin: 15px 0;
+  font-size: 14px;
+  color: var(--subtext-color);
+}
+
+.signin-container .google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--text-color2);
+  border: 2px solid #ccc;
+  color: var(--text-color1);
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-container .google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.signin-container .item-signin {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.signin-container .item-signin a {
+  color: var(--text-color1);
+  text-decoration: none;
+
+  margin: 10px;
+}
+.signin-container .item-signin a :hover {
+  color: var(--text-color1);
+  text-decoration: none;
+
+  margin: 10px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
