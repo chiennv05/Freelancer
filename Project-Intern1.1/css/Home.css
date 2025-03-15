@@ -708,13 +708,13 @@ body {
 
 /* Responsive cho màn hình nhỏ hơn */
 @media (max-width: 1024px) {
-  .container_text_img_box {
+  .container_Feature .container_text_img .container_text_img_box {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .container_text_img_box {
+  .container_Feature .container_text_img .container_text_img_box {
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -858,14 +858,14 @@ body {
 
 /* Responsive - Màn hình nhỏ hơn 1024px (2 cột) */
 @media (max-width: 1024px) {
-  .container-item-box {
+  .container_blog_box .container-item-box {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Responsive - Màn hình nhỏ hơn 768px (1 cột) */
 @media (max-width: 768px) {
-  .container-item-box {
+  .container_blog_box .container-item-box {
     grid-template-columns: repeat(1, 1fr);
   }
 }
